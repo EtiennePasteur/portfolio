@@ -1,4 +1,4 @@
-export default {
+const config = {
   mode: 'universal',
   /*
    ** Headers of the page
@@ -23,11 +23,14 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/css/fonts.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/vueTyper.js', ssr: false },
+    { src: '~/plugins/vAspectRatio.js', ssr: false }
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -52,3 +55,11 @@ export default {
     extend(config, ctx) {}
   }
 }
+
+if (process.env.DEPLOY_ENV === 'GH_PAGES') {
+  config.router = {
+    base: '/portfolio/'
+  }
+}
+
+export default config

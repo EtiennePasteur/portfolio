@@ -1,4 +1,4 @@
-# portfolio
+# portfolio [![Build Status](https://travis-ci.org/EtiennePasteur/portfolio.svg?branch=master)](https://travis-ci.org/EtiennePasteur/portfolio)
 
 > My portfolio source code
 

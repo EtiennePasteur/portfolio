@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+  .container {
+    padding: 0 25px !important;
+  }
+
+  .nav-link-custom::after {
+    position: absolute;
+    right: 0;
+    top: 12px;
+  }
+}
+
+.nav-link-custom::after {
+  content: '';
+  margin-left: 10px;
+  width: 8px;
+  height: 8px;
+  border-style: solid;
+  border-color: #000;
+  border-width: 1px 1px 0 0;
+  transform: rotate(135deg);
+}

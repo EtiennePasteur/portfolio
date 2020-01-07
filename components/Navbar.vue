@@ -2,26 +2,26 @@
   <div>
     <b-navbar toggleable="sm">
       <div class="container">
-        <b-navbar-brand>ETIENNE PASTEUR</b-navbar-brand>
+        <b-navbar-brand>ETIENNE P.</b-navbar-brand>
         <b-navbar-toggle target="nav-collapse">
           <img src="~/assets/img/menu-icon.png" alt="menu" width="22" />
         </b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item href="#" class="home">HOME</b-nav-item>
-            <b-nav-item-dropdown text="WORK" right>
+            <b-nav-item class="home text-center" href="#">HOME</b-nav-item>
+            <b-nav-item-dropdown class="text-center" right text="WORK" toggle-class="nav-link-custom">
               <b-dropdown-item href="#">April</b-dropdown-item>
               <b-dropdown-item href="#">Neo9</b-dropdown-item>
               <b-dropdown-item href="#">Ubg</b-dropdown-item>
               <b-dropdown-item href="#">Sogilis</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item-dropdown text="PROJECTS" right>
+            <b-nav-item-dropdown class="text-center" right text="PROJECTS" toggle-class="nav-link-custom">
               <b-dropdown-item href="#">April</b-dropdown-item>
               <b-dropdown-item href="#">Neo9</b-dropdown-item>
               <b-dropdown-item href="#">Ubg</b-dropdown-item>
               <b-dropdown-item href="#">Sogilis</b-dropdown-item>
             </b-nav-item-dropdown>
-            <b-nav-item href="#">ABOUT</b-nav-item>
+            <b-nav-item class="text-center" href="#">ABOUT</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </div>
@@ -30,6 +30,8 @@
 </template>
 <style scoped lang="scss">
   .navbar {
+    padding: 0.5rem 0rem;
+
     .container {
       font-family: Avenirnext, sans-serif;
       font-weight: 500;
@@ -49,11 +51,13 @@
       }
 
       .navbar-nav {
-        .nav-item {
-          padding-right: 15px;
+        @media (min-width: 576px) {
+          .nav-item {
+            padding-right: 15px;
 
-          &:last-child {
-            padding-right: 0;
+            &:last-child {
+              padding-right: 0;
+            }
           }
         }
 

@@ -23,7 +23,7 @@ const config = {
   /*
    ** Global CSS
    */
-  css: ['~/assets/css/fonts.css'],
+  css: ['~/assets/css/fonts.css', '~/assets/css/custom.css'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -43,7 +43,23 @@ const config = {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    [
+      'nuxt-fontawesome',
+      {
+        component: 'fa',
+        imports: [
+          {
+            set: '@fortawesome/free-solid-svg-icons',
+            icons: ['fas']
+          },
+          {
+            set: '@fortawesome/free-brands-svg-icons',
+            icons: ['fab']
+          }
+        ]
+      }
+    ]
   ],
   /*
    ** Build configuration
@@ -52,7 +68,8 @@ const config = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {
+    }
   }
 }
 

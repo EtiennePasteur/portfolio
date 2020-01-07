@@ -3,7 +3,7 @@
     <div class="presentation d-flex flex-column">
       <div class="presentation-bold presentation-name">
         Hi, I'm
-        <span class="text-yellow text-white-shadow-hover">Etienne Pasteur</span>
+        <span class="text-yellow text-white-shadow-hover">Etienne P.</span>
       </div>
       <div class="presentation-bold presentation-jobs">
         <client-only>
@@ -20,7 +20,7 @@
             initial-action="typing"
             erase-style="backspace"
             caret-animation="blink"
-            class="text-white-shadow text-green"
+            class="text-white-shadow text-green text-nowrap"
           />
         </client-only>
       </div>
@@ -116,7 +116,6 @@
       }
 
       &-title {
-        font-family: 'Geller Headline', sans-serif;
         font-weight: 600;
         font-size: 3vw;
         line-height: 3.5vw;
@@ -173,24 +172,49 @@
     font-family: 'Avenir Next', sans-serif;
     color: #1a1b1f;
     font-weight: 400;
-    font-size: 16px;
-    padding-top: 80px;
+    font-size: 14px;
+    padding-top: 20px;
+
+    @media (min-width: 576px) {
+      padding-top: 60px;
+    }
+
+    @media (min-width: 768px) {
+      padding-top: 80px;
+      font-size: 16px;
+    }
 
     &-bold {
       color: #191b1e;
-      font-size: 54px;
       font-weight: 600;
       letter-spacing: 0.4px;
-      line-height: 60px;
       margin: 10px 0;
+      font-size: 34px;
+      line-height: 40px;
+      height: 40px;
+
+      @media (min-width: 992px) {
+        font-size: 46px;
+        line-height: 52px;
+        height: 52px;
+      }
+
+      @media (min-width: 1200px) {
+        font-size: 54px;
+        line-height: 60px;
+        height: 60px;
+      }
     }
 
     &-desc {
-      margin: 50px 0 100px;
+      margin: 100px 0 100px;
 
       &-title {
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
+        @media (min-width: 768px) {
+          font-size: 18px;
+        }
       }
     }
   }

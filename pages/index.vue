@@ -34,7 +34,7 @@
     </div>
     <div class="work d-flex flex-column mb-5">
       <div class="work-title mb-5">MY RECENT WORK</div>
-      <div class="work-item work-item-blue">
+      <div class="work-item work-item-blue" v-on:click="$router.push('april')">
         <div v-aspect-ratio="'16:6'">
           <div class="work-item-container overflow-hidden">
             <div class="d-flex flex-row align-items-center justify-content-center w-100 h-100">
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <div class="work-item work-item-yellow">
+      <div class="work-item work-item-yellow" v-on:click="$router.push('ibubble')">
         <div v-aspect-ratio="'16:6'">
           <div class="work-item-container overflow-hidden">
             <div class="d-flex flex-row align-items-center justify-content-center w-100 h-100">
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="work-item work-item-green">
+      <div class="work-item work-item-green" v-on:click="$router.push('meet-your-beauty')">
         <div v-aspect-ratio="'16:6'">
           <div class="work-item-container overflow-hidden">
             <div class="d-flex flex-row align-items-center justify-content-center w-100 h-100">

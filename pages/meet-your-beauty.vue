@@ -1,15 +1,13 @@
 <template>
   <div class="work">
-    <div class="work-header background-blue">
-      <div v-aspect-ratio="'16:4'">
-        <div class="work-container d-flex justify-content-center align-items-center">
-          <img alt="neo9" class="img-neo9" src="~/assets/img/Neo9.png" />
-        </div>
+    <div class="work-header background-green">
+      <div class="container d-flex justify-content-center align-items-center">
+        <img alt="ubg" class="img-ubg" src="~/assets/img/Ubg.png" />
       </div>
     </div>
     <div class="work-body">
       <div class="container">
-        <div class="work-body-title">AprilOn</div>
+        <div class="work-body-title">Meet Your Beauty</div>
         <div class="work-body-desc d-flex flex-row justify-content-between">
           <div class="overview d-flex flex-column">
             <div class="overview-title">OVERVIEW</div>
@@ -37,24 +35,14 @@
   .work {
     font-family: 'Avenir Next', sans-serif;
 
-    &-header {
-      position: relative;
-    }
-
-    &-container {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    .background-blue {
-      background-color: #99cbfa;
+    .background-green {
+      background-color: #9ee8d1;
 
       div {
-        .img-neo9 {
-          height: 65%;
+        padding: 80px 0;
+
+        .img-ubg {
+          width: 560px;
         }
       }
     }

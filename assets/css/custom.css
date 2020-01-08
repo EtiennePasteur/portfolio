@@ -8,6 +8,31 @@
     right: 0;
     top: 12px;
   }
+
+  .dropdown .dropdown-menu {
+    border: none;
+  }
+
+  .dropdown .dropdown-menu li .dropdown-item {
+    background-color: transparent !important;
+  }
+
+  .dropdown .dropdown-menu li:first-child {
+    margin-top: 15px;
+  }
+
+  .dropdown .dropdown-menu li:last-child {
+    margin-bottom: 15px;
+  }
+}
+
+.nav-link-custom {
+  color: #191b1e !important;
+}
+
+.nav-link-custom:hover {
+  opacity: 0.8;
+  color: #32343a;
 }
 
 .nav-link-custom::after {
@@ -16,7 +41,38 @@
   width: 8px;
   height: 8px;
   border-style: solid;
-  border-color: #000;
+  border-color: #191b1e;
   border-width: 1px 1px 0 0;
   transform: rotate(135deg);
+}
+
+.dropdown .dropdown-menu {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown.show .dropdown-menu {
+  max-height: 200px;
+  opacity: 1;
+}
+
+.dropdown .dropdown-menu li {
+  width: 100%;
+  text-align: center;
+  font-family: 'Avenir Next', sans-serif;
+  letter-spacing: 0.7px;
 }

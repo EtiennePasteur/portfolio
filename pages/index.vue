@@ -37,9 +37,9 @@
       <div class="work-item work-item-blue" v-on:click="$router.push('april')">
         <div v-aspect-ratio="'16:6'">
           <div class="work-item-container overflow-hidden">
-            <div class="d-flex flex-row align-items-center justify-content-center w-100 h-100">
+            <div class="d-flex flex-row align-items-center justify-content-around w-100 h-100">
               <img class="img-neo9" src="~/assets/img/Neo9.png" alt="neo9" />
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column desc-neo9">
                 <div class="work-item-title">AprilOn</div>
                 <div class="work-item-desc">Building a marketplace for insurance</div>
               </div>
@@ -50,8 +50,8 @@
       <div class="work-item work-item-yellow" v-on:click="$router.push('ibubble')">
         <div v-aspect-ratio="'16:6'">
           <div class="work-item-container overflow-hidden">
-            <div class="d-flex flex-row align-items-center justify-content-center w-100 h-100">
-              <div class="d-flex flex-column mr-4">
+            <div class="d-flex flex-row align-items-center justify-content-around w-100 h-100">
+              <div class="d-flex flex-column desc-sogilis">
                 <div class="work-item-title">iBubble</div>
                 <div class="work-item-desc">Prototyping the first autonomous diving drone</div>
               </div>
@@ -63,9 +63,9 @@
       <div class="work-item work-item-green" v-on:click="$router.push('meet-your-beauty')">
         <div v-aspect-ratio="'16:6'">
           <div class="work-item-container overflow-hidden">
-            <div class="d-flex flex-row align-items-center justify-content-center w-100 h-100">
+            <div class="d-flex flex-row align-items-center justify-content-around w-100 h-100">
               <img class="img-ubg" src="~/assets/img/Ubg.png" alt="ubg" />
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column desc-ubg">
                 <div class="work-item-title">Meet Your Beauty</div>
                 <div class="work-item-desc">Integrating a website dedicated to beauty</div>
               </div>
@@ -117,13 +117,45 @@
 
       &-title {
         font-weight: 600;
-        font-size: 3vw;
-        line-height: 3.5vw;
         letter-spacing: 0.4px;
+        font-size: 22px;
+        line-height: 28px;
+
+        @media (min-width: 576px) {
+          font-size: 30px;
+          line-height: 36px;
+        }
+
+        @media (min-width: 768px) {
+          font-size: 36px;
+          line-height: 42px;
+        }
+
+        @media (min-width: 992px) {
+          font-size: 42px;
+          line-height: 48px;
+        }
+
+        @media (min-width: 1200px) {
+          font-size: 50px;
+          line-height: 56px;
+        }
       }
 
       &-desc {
-        font-size: 1.6vw;
+        font-size: 10px;
+
+        @media (min-width: 576px) {
+          font-size: 12px;
+        }
+
+        @media (min-width: 768px) {
+          font-size: 16px;
+        }
+
+        @media (min-width: 992px) {
+          font-size: 18px;
+        }
       }
 
       .img {
@@ -143,6 +175,23 @@
           height: 65%;
           position: relative;
           right: -4%;
+        }
+      }
+
+      .desc {
+        &-neo9 {
+          position: relative;
+          left: -8%;
+        }
+
+        &-ubg {
+          position: relative;
+          left: -8%;
+        }
+
+        &-sogilis {
+          position: relative;
+          right: -2%;
         }
       }
 

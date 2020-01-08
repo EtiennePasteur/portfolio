@@ -76,3 +76,7 @@
   font-family: 'Avenir Next', sans-serif;
   letter-spacing: 0.7px;
 }
+
+*:focus {
+  outline: none;
+}

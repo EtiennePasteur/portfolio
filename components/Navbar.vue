@@ -15,7 +15,7 @@
               <b-dropdown-item :to="'meet-your-beauty'">MeetYourBeauty</b-dropdown-item>
             </b-nav-item-dropdown>
             <b-nav-item :to="'/'" class="text-center">PROJECTS</b-nav-item>
-            <b-nav-item :to="'/'" class="text-center">ABOUT</b-nav-item>
+            <b-nav-item :to="'about'" class="text-center">ABOUT</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </div>

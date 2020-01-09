@@ -192,6 +192,7 @@
         &-sogilis {
           position: relative;
           right: -2%;
+          padding: 0 15px;
         }
       }
 

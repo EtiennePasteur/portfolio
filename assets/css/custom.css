@@ -1,6 +1,6 @@
 @media (max-width: 576px) {
   .container {
-    padding: 0 25px !important;
+    padding: 0 20px !important;
   }
 
   .nav-link-custom::after {

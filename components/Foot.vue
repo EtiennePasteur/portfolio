@@ -2,7 +2,7 @@
   <div class="footer">
     <div class="container d-flex justify-content-center align-items-center flex-column">
       <div class="footer-title">Let's connect</div>
-      <div class="footer-desc">Get in touch for opportunities or just to say hi! 👋</div>
+      <div class="footer-desc text-center">Get in touch for opportunities or just to say hi! 👋</div>
       <div class="social d-flex flex-row justify-content-between align-items-center">
         <a href="https://github.com/EtiennePasteur" target="_blank">
           <fa :icon="['fab', 'github-square']" />

@@ -9,12 +9,12 @@
           </div>
           <div class="d-flex flex-column">
             <div>
-              My name is Etienne Pasteur and I'm passionate about improving the lives of others through design. I'm constantly learning new things everyday and love meeting people who are motivated and unafraid of sharing their ideas with
-              the world.
+              My name is Etienne Pasteur and I'm passionate about improving the lives of others through coding. I'm constantly learning new things everyday and i love meeting new people who are motivated and unafraid of sharing their ideas
+              with the world.
             </div>
             <div class="pt-4">
-              I'm a self taught designer and have learnt a lot of the processes, concepts and theories of UX/UI and product design through attending workshops, reading blogs and applying these to projects in my spare time and at work. I am
-              very much a big-picture thinker and enjoy working on products end to end, from ideation all the way to development.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu elementum mauris. Mauris in pulvinar est. Curabitur varius purus faucibus, iaculis erat in, ullamcorper dui. Suspendisse tincidunt nec felis id laoreet.
+              Pellentesque commodo molestie mauris, ac fringilla odio lobortis sed. Ut urna tortor, sollicitudin et finibus nec, gravida a ipsum. Etiam ut sapien sit amet ligula vestibulum consequat.
             </div>
           </div>
         </div>
@@ -26,22 +26,22 @@
             <div class="values-item d-flex flex-column">
               <div class="values-item-title">😍 Passion is everything.</div>
               <div class="values-item-desc">
-                If you don't enjoy what you're doing - move. You are not a tree. Channel your energy into something you believe in. I'm fortunate to be inspired and surrounded by motivated people who enjoy what they do. We only have so much
-                time on this earth to live - so why waste it?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu elementum mauris. Mauris in pulvinar est. Curabitur varius purus faucibus, iaculis erat in, ullamcorper dui. Suspendisse tincidunt nec felis id laoreet.
+                Pellentesque commodo molestie mauris, ac fringilla odio lobortis sed. Ut urna tortor, sollicitudin et finibus nec, gravida a ipsum. Etiam ut sapien sit amet ligula vestibulum consequat.
               </div>
             </div>
             <div class="values-item d-flex flex-column">
               <div class="values-item-title">🚀 Passion is everything.</div>
               <div class="values-item-desc">
-                If you don't enjoy what you're doing - move. You are not a tree. Channel your energy into something you believe in. I'm fortunate to be inspired and surrounded by motivated people who enjoy what they do. We only have so much
-                time on this earth to live - so why waste it?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu elementum mauris. Mauris in pulvinar est. Curabitur varius purus faucibus, iaculis erat in, ullamcorper dui. Suspendisse tincidunt nec felis id laoreet.
+                Pellentesque commodo molestie mauris, ac fringilla odio lobortis sed. Ut urna tortor, sollicitudin et finibus nec, gravida a ipsum. Etiam ut sapien sit amet ligula vestibulum consequat.
               </div>
             </div>
             <div class="values-item d-flex flex-column">
               <div class="values-item-title">🏆 Passion is everything.</div>
               <div class="values-item-desc">
-                If you don't enjoy what you're doing - move. You are not a tree. Channel your energy into something you believe in. I'm fortunate to be inspired and surrounded by motivated people who enjoy what they do. We only have so much
-                time on this earth to live - so why waste it?
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu elementum mauris. Mauris in pulvinar est. Curabitur varius purus faucibus, iaculis erat in, ullamcorper dui. Suspendisse tincidunt nec felis id laoreet.
+                Pellentesque commodo molestie mauris, ac fringilla odio lobortis sed. Ut urna tortor, sollicitudin et finibus nec, gravida a ipsum. Etiam ut sapien sit amet ligula vestibulum consequat.
               </div>
             </div>
           </div>
